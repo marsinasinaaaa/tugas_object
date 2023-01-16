@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+var tikus = {
+    nama :"Pingki",
+    warna :"Hitam",
+    jumlah_kaki_tangan :"Masing Masing Memiliki 2 Kaki dan 2 Tangan",
+    jenis : {
+        termasuk_hewan :"Hewan Liar",
+        golongan :"Mamalia"
+    },
+    dikenal : function (){
+        return("Hewan Pengganggu") 
+    },
+    mengakibatkan: function (){
+        return("Penyakit Kepada Manusia")
+    }
+}
+document.write('Nama Tikusnya :' + tikus.nama + '<br />');
+document.write('Memiliki Warna :' + tikus.warna + '<br />');
+document.write('Jumlah Kaki sama Tangannya :' + tikus.jumlah_kaki_tangan + '<br />');
+document.write('Dikenal Sebagai :' + tikus.dikenal() + '<br />')
+document.write('Sering Menularkan :' + tikus.mengakibatkan() + '<br />')
+    </script>
+</body>
+</html>
